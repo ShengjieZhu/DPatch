@@ -13,11 +13,11 @@ from random import randint
 
 from patch import *
 
-try:
-    from tensorboardX import SummaryWriter
-except ImportError:
-    SummaryWriter = None
-
+# try:
+#     from tensorboardX import SummaryWriter
+# except ImportError:
+#     SummaryWriter = None
+SummaryWriter = None
 
 # data loader
 imdb = VOCDataset(cfg.imdb_train, cfg.DATA_DIR, cfg.train_batch_size,

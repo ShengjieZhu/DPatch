@@ -1,15 +1,9 @@
 # DPatch: An Adversarial Patch Attack on Object Detectors
-This is a [PyTorch](https://github.com/pytorch/pytorch)
-implementation of DPATCH.
-Please refer to the paper https://arxiv.org/abs/1806.02299
-
-
-
 ## Installation
 1. Please install PyTorch following the instuctions on the official website. The version here should be 0.4.0 
    ```bash
     conda install pytorch torchvision -c pytorch
-    ```
+   ```
 
 2. The yolo codes are referred to https://github.com/longcw/yolo2-pytorch. Download the pretrained yolo model [yolo-voc.weights.h5](https://drive.google.com/open?id=0B4pXCfnYmG1WUUdtRHNnLWdaMEU) 
 
@@ -68,6 +62,6 @@ The demo pictures are saved in demo/patch, the detection results are saved in de
     ```bash
     python demo.py
     ```
-    
+
 Click the following picture to watch the video demo.
 [![Watch the video](https://img.youtube.com/vi/-aPbU9q1gFU/maxresdefault.jpg)](https://youtu.be/-aPbU9q1gFU)
