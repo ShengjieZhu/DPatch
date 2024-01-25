@@ -30,8 +30,7 @@ net = Darknet19()
 # net_utils.load_net(cfg.trained_model, net)
 #pretrained_model = os.path.join(cfg.train_output_dir,
 #                  'darknet19_voc07trainval_exp3_79.h5')
-# pretrained_model = 'yolo-voc.weights.h5'
-pretrained_model = 'darknet19-deepBakSu-e1b3ec1e.pth'
+pretrained_model = 'darknet19.pth'
 
 
 # training from scratch: with_patch=False
