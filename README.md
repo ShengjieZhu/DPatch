@@ -1,5 +1,12 @@
 # DPatch: An Adversarial Patch Attack on Object Detectors
+
+
+## **报错：[Errno 2] No such file or directory: 'untargetd_DPATCH.npy'**
+
+
+
 ## Installation
+
 1. Please install PyTorch following the instuctions on the official website. The version here should be 0.4.0 
    ```bash
     conda install pytorch torchvision -c pytorch
@@ -35,6 +42,7 @@
     
 4. Since the program loading the data in `DPatch/data` by default,
 you can set the data path as following.
+   
     ```bash
     cd DPatch
     mkdir data
@@ -48,7 +56,7 @@ The trained DPATCH are saved in trained_patch/${target_class}/
     ```bash
     python train.py
     ```
-    
+
 ## Test
 Download a trained DPATCH https://drive.google.com/open?id=1_G5xXWIJWNGuss4KZbBQ9pMvuthmL_wc , or you can test your trained DPatch and set the path in cfgs/config.py (Line 102) 
     ```bash
