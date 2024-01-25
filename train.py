@@ -39,7 +39,7 @@ net_utils.load_net(pretrained_model, net, with_patch=False)
 #net.load_from_npz(cfg.pretrained_model, num_conv=18)
 net.cuda()
 net.train()
-print('load net succ...')
+print('load net successful...')
 
 # optimizer
 start_epoch = 0
